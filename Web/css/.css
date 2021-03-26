@@ -1,0 +1,201 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: orangered;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+
+.btn_top {
+    height: 28px;
+    border-color: orangered;
+    color: orangered;
+}
+
+.search {
+    width: 300px;
+}
+
+.top :hover {
+    color: red;
+}
+
+@keyframes shop_name {
+    10% {
+        color: red;
+    }
+    50% {
+        color: rgb(243, 149, 149);
+    }
+    70% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@-moz-keyframes shop_name {
+    10% {
+        color: red;
+    }
+    50% {
+        color: rgb(243, 149, 149);
+    }
+    70% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@-o-keyframes shop_name {
+    10% {
+        color: red;
+    }
+    50% {
+        color: rgb(243, 149, 149);
+    }
+    70% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@-webkit-keyframes shop_name {
+    10% {
+        color: red;
+    }
+    50% {
+        color: rgb(243, 149, 149);
+    }
+    70% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.shop_name {
+    animation-name: shop_name;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-left: 30px;
+}
+
+.menu-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-contact__menu-product {
+    border: none;
+    color: blanchedalmond;
+    margin-left: 10px;
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.menu-product__show {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-top: 12px;
+}
+
+.menu-contact__menuHotline {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-product__btn {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-product__btn-image {
+    margin-bottom: 9px;
+}
+
+.null {
+    background-color: white;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    width: 1px;
+    margin: 7px 3px 0px 3px;
+}
+
+.text {
+    margin: 10px 0px 0px 10px;
+    width: max-content;
+}
+
+.menu_2 {
+    display: flex;
+}
+
+.menu-contact__menuHotLine-btnMenu {
+    margin-top: 10px;
+    width: 180px;
+}
+
+.menuBook__menu-menuList {
+    list-style: none;
+}
+
+.menuList__info {
+    width: 190px;
+    margin-top: 10px;
+}
+
+.menuList__info-text {
+    height: auto;
+    width: max-content;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu_4 {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.dropdown-toggle {
+    margin-top: 0px;
+}
+
+.menu_book {
+    list-style: none;
+    float: left;
+}
+
+.product {
+    width: 20%;
+}
+
+.all-product {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.all-product__product {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border: 1px black solid;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 30%
+}
